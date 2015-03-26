@@ -1,6 +1,9 @@
 nb_NO:
   tagging:
-    choose_for_topic: "Aksjesymbol (f.eks FUNCOM eller TSLA)"
+    choose_for_topic: "Aksjeticker (f.eks FUNCOM eller TSLA)"
+    tags: "Alle aksjer"
+    rename_tag: "Rediger ticker"
+    delete_tag: "Slett ticker"
   js:
     number:
       human:
