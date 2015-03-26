@@ -751,6 +751,11 @@ nb_NO:
       more_topics_category: "Flere nye emner:"
     signup:
       subject_template: "[%{site_name}] Aktiver din nye konto"
+      text_body_template: |
+        Velkommen til %{site_name}!
+
+        Trykk på denne lenken for å aktivere kontoen din:
+        %{base_url}/users/activate-account/%{email_token}
   page_not_found:
     see_more: "Mer"
     search_title: "Søk i denne siden"
