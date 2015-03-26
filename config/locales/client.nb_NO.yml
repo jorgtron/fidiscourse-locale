@@ -1,4 +1,6 @@
 nb_NO:
+  tagging:
+    choose_for_topic: "Aksjesymbol (f.eks FUNCOM eller TSLA)"
   js:
     number:
       human:
