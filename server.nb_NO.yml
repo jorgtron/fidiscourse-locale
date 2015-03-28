@@ -714,7 +714,7 @@ nb_NO:
     incorrect_username_email_or_password: "Feil brukernavn, email eller passord"
     wait_approval: "Takk for at du registrerte deg. Vi vil gi deg beskjed når din konto har blitt godkjent."
     active: "Kontoen din har blitt godkjent og er klar for bruk."
-    activate_email: "<p>Nesten ferdig! Vi har sendt en e-post til <b>%{email}</b>. Vennligst trykk på lenken i e-posten for å aktivere kontoen din.</p><p>Hvis den ikke dukker opp, sjekk søppepostmappen din eller logg inn på nytt for å sende en ny-epost.</p>"
+    activate_email: "<p>Nesten ferdig! Vi har sendt en e-post til <b>%{email}</b>. Vennligst trykk på lenken i e-posten for å aktivere kontoen din.</p><p>Hvis den ikke dukker opp, sjekk søppelpostmappen din eller logg inn på nytt for å sende en ny-epost.</p>"
     something_already_taken: "Noe gikk galt, kanskje brukernavn eller email er allerede i bruk? Prøv 'glemt passord' linken."
     omniauth_error_unknown: "Noe gikk galt under innloggingsprosessen, vennligst prøv igjen."
     password_too_long: "Passord er begrenset til 200 tegn."
