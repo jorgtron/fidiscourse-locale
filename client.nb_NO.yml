@@ -415,8 +415,8 @@ nb_NO:
         every_three_days: "hver tredje dag"
         weekly: "ukentlig"
         every_two_weeks: "annenhver uke"
-      email_direct: "Send meg e-post når noen siteter meg, svarer meg eller nevner mitt @brukernavn"
-      email_private_messages: "Notta en email når noen sender deg en privat melding"
+      email_direct: "Send meg e-post når noen siterer meg, svarer meg eller nevner mitt @brukernavn"
+      email_private_messages: "Motta en email når noen sender deg en privat melding"
       email_always: "Ikke stans e-postvarsler mens jeg er aktiv på nettstedet."
       other_settings: "Annet"
       categories_settings: "Kategorier"
@@ -582,6 +582,7 @@ nb_NO:
       requires_invite: "Beklager, tilgang til dette forumet er kun ved invitasjon."
       not_activated: "Du kan ikke logge inn ennå. Vi sendte en e-post for aktivering til deg på <b>{{sentTo}}</b>. Vennligst følg instruksjonene i den e-posten for å aktivere din konto."
       not_allowed_from_ip_address: "Du kan ikke logge inn fra den IP-adressen."
+      admin_not_allowed_from_ip_address: "Du kan ikke logge inn som administrator fra den IP-adressen."
       resend_activation_email: "Klikk her for å sende e-posten for aktivering igjen."
       sent_activation_email_again: "Vi sendte deg en ny e-post for aktivering på <b>{{currentEmail}}</b>. Det kan ta noen minutter før den kommer fram; sørg for at du sjekker nettsøppel om du ikke finner den."
       google:
@@ -736,6 +737,7 @@ nb_NO:
         close_topics: "Lukk Emner"
         archive_topics: "Arkiverte emner"
         notification_level: "Endre varslingsnivå"
+        choose_new_category: "Velg den nye kategorien for emnene:"
         selected:
           one: "Du har valgt <b>1</b> emne."
           other: "Du har valgt <b>{{count}}</b> emner."
@@ -896,6 +898,13 @@ nb_NO:
         title: 'Rapporter'
         help: 'rapporter dette innlegget privat eller send et privat varsel om det'
         success_message: 'Du har rapportert dette emnet'
+      feature_topic:
+        pin: "Plasser dette emnet på toppen av {{categoryLink}} kategorien."
+        confirm_pin: "Du har allerede {{count}} låste emner. For mange låste emner kan være et problem for nye og anonyme brukere. Er du sikker på at du ønsker å låse et til emne i denne kategorien?"
+        unpin: "Fjern dette emnet fra toppen av {{categoryLink}} kategorien."
+        pin_note: "Brukere kan låse opp emnet selv."
+        already_pinned:
+          zero: "Det er ingen låste emner i {{categoryLink}}."
       inviting: "Inviterer..."
       automatically_add_to_groups_optional: "Denne invitasjonen inkluderer også tilgang på disse gruppene: (valgfritt, kun for admin)"
       automatically_add_to_groups_required: "Denne invitasjonen inkluderer også tilgang til disse gruppene: (<b>påkrevet</a>, kun for admin)"
